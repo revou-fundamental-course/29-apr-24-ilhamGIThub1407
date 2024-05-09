@@ -1,9 +1,61 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <meta charset="UTF-B">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilham Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
 <body>
+    <header img class="navigation-container">
+        <div class="navigation-icon"></div>
 
-<h1></h1>
-<p></p>
+        <nav>
+            <button type="button">Home</button>
+            <button>Package</button>
+            <button>Call Us</button>
+        </nav>
+    </header>
+    <hr />
 
+    <article class="content-container">
+        <header>
+            <h1>Ilham Website</h1>
+            <h3>Welcome to my web</h3>
+        </header>
+
+        <section class="core-content">
+            <div class="core-item">
+                <div class="banner-item" style="background-image: url(Assets/1.jpg);"></div>
+                <div class="banner-item" style="background-image: url(Assets/2.jpg);"></div>
+                <div class="banner-item" style="background-image: url(Assets/3.jpg);"></div>
+            </div>
+            <div class="core-item item-right">
+                <header>
+                    <h2>Contact Me</h2>
+                </header>
+
+                <header>
+                    <h5>kami akan menghubungi anda</h5>
+                </header>
+
+                <form class="item-form">
+                    <div>
+                        <label>Username:</label><input type="text" id="form-username" required />
+                    </div>
+                    <button type="button" id="send-btn">Send Form</button>
+                </form>   
+            </div>
+        </section>
+
+        <section class="our-package-content">
+            <h1>Our package</h1>
+        </section>
+    </article>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>
