@@ -45,4 +45,4 @@ function showSlide(index) {
 
 setInterval(() => nextSlide(1), 2000);
 
-document.getElementById('send-btn').addEventListener('click', () => validation(1))
+document.getElementById('send-btn').addEventListener('click', () => validation())
